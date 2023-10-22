@@ -11,7 +11,7 @@ fun main () {
     if (playerLevel == 1) {
         println("Meet Mr. Bubbles in the land of soft things.")
     } else if (playerLevel <= 5) {
-        // Проверить возможность дипломатичекого решенияк
+        // Проверить возможность дипломатичекого решения
         if (!hasAngeredBarbarians &&
             (hasBefriendedBarbarians || playerClass == "Barbarian")) {
             println("Convince the barbarians to call off their invasion")
